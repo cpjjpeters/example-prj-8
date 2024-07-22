@@ -26,6 +26,9 @@ export function Navbar() {
           <button className="navbutton">About</button>
         </Link>
       </li>
+      <Link to="/cart">
+        <button className="navbutton">Cart</button>
+      </Link>
     </nav>
   );
 }
