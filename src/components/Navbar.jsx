@@ -29,6 +29,9 @@ export function Navbar() {
       <Link to="/cart">
         <button className="navbutton">Cart</button>
       </Link>
+      <Link to="/store">
+        <button className="navbutton">Store</button>
+      </Link>
     </nav>
   );
 }
