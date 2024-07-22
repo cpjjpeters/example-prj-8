@@ -5,10 +5,12 @@ import "./index.css";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import cartCountReducer from "../src/cartCountSlice.js";
+import loggedInReducer from "../src/loggedInSlice.js";
 
 const store = configureStore({
   reducer: {
     cartCount: cartCountReducer,
+    loggedIn: loggedInReducer,
   },
 });
 

@@ -6,7 +6,7 @@ export function Store() {
 
   return (
     <div>
-      <h2>Number of items in cart: {cartCount}</h2>
+      <h2>OLD Number of items in cart: {cartCount}</h2>
       <button onClick={() => setCartCount(cartCount + 1)}>Add to cart</button>
     </div>
   );
