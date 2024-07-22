@@ -6,10 +6,10 @@ import { Navbar } from "./components/Navbar";
 import { Contact } from "./pages/Contact";
 import { Products } from "./pages/Products";
 import { About } from "./pages/About";
-// import { ProductDetail } from "./pages/ProductDetail";
 
 function App() {
   return (
+    // <h1>App</h1>
     <Router>
       <Routes>
         <Route element={<Layout />}>
